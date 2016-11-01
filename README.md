@@ -1,2 +1,2 @@
 # DockerTestApp
-Docker test application
+Docker test application.
