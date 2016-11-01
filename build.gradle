@@ -21,6 +21,12 @@ jar {
     version =  '0.1.0'
 }
 
+docker {
+    apiUsername 'ransikadesilva'
+    apiPassword 'Vijay123$'
+    apiEmail 'ransika@gmail.com'
+}
+
 task buildDocker(type: Docker, dependsOn: build) {
     push = true
     applicationName = jar.baseName
