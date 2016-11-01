@@ -11,6 +11,6 @@ public class DockerHelloWorldCtrl {
 
     @RequestMapping("/sayHelloDocker")
     public String sayHelloDocker() {
-        return "Hello, Happy Dockerizing :-)";
+        return "Hello, Happy Dockerizing :-) After an update";
     }
 }
